@@ -53,12 +53,6 @@ console.log(date1);
                         </div>
                     })
                 }
-
-
-
-
-
-
             </div>
         </div>
     )

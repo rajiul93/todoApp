@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 
-export default function Complete({ onRunning }) {
+export default function Complete() {
     const store = JSON.parse(localStorage.getItem("three"));
 
     let cart = [];
@@ -28,12 +28,6 @@ export default function Complete({ onRunning }) {
                             </div>
                         })
                     }
-
-
-
-
-
-
                 </div>
             </div>
         </section>

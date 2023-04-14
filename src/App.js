@@ -13,12 +13,7 @@ function App() {
       <Route path='/running' element={<Running />} />
       <Route path='/complete' element={<Complete />} />
     </Routes>
-
-  
   )
-
-
-
 }
 
 export default App;

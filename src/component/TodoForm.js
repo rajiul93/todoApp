@@ -5,7 +5,6 @@ function TodoForm({ addTodo }) {
     const [description, setDescription] = useState('')
     const handleSubmit = (e) => {
         addTodo(value, description);
-        // console.log(description)
         setValue('')
         setDescription('')
         e.preventDefault();
